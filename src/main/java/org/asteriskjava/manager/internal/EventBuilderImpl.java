@@ -62,6 +62,7 @@ class EventBuilderImpl extends AbstractBuilder implements EventBuilder
         registerEventClass(BridgeEvent.class);
         registerEventClass(BridgeExecEvent.class);
         registerEventClass(CdrEvent.class);
+        registerEventClass(ChannelEntryEvent.class);
         registerEventClass(ChannelReloadEvent.class);
         registerEventClass(ChannelUpdateEvent.class);
         registerEventClass(ChanSpyStartEvent.class);
@@ -81,6 +82,7 @@ class EventBuilderImpl extends AbstractBuilder implements EventBuilder
         registerEventClass(DahdiShowChannelsEvent.class);
         registerEventClass(DahdiShowChannelsCompleteEvent.class);
         registerEventClass(DbGetResponseEvent.class);
+        registerEventClass(DeviceEntryEvent.class);
         registerEventClass(DialEvent.class);
         registerEventClass(DndStateEvent.class);
         registerEventClass(DongleNewSMSBase64Event.class);
@@ -105,6 +107,7 @@ class EventBuilderImpl extends AbstractBuilder implements EventBuilder
         registerEventClass(JitterBufStatsEvent.class);
         registerEventClass(JoinEvent.class);
         registerEventClass(LeaveEvent.class);
+        registerEventClass(LineEntryEvent.class);
         registerEventClass(LinkEvent.class);
         registerEventClass(ListDialplanEvent.class);
         registerEventClass(LogChannelEvent.class);
@@ -161,6 +164,11 @@ class EventBuilderImpl extends AbstractBuilder implements EventBuilder
         registerEventClass(RtpSenderStatEvent.class);
         registerEventClass(SendFaxStatusEvent.class);
         registerEventClass(SendFaxEvent.class);
+        registerEventClass(SCCPDevice.class);
+        registerEventClass(SCCPLine.class);
+        registerEventClass(SCCPLineCompleteEvent.class);
+        registerEventClass(SCCPLineRemovedEvent.class);
+        registerEventClass(SCCPShowChannelsEvent.class);
         registerEventClass(SkypeAccountStatusEvent.class);
         registerEventClass(SkypeBuddyEntryEvent.class);
         registerEventClass(SkypeBuddyListCompleteEvent.class);
