@@ -22,7 +22,7 @@ Asterisk-Java is available from http://asterisk-java.org
 INSTALLATION FROM SOURCE
 ------------------------
 
-	git clone https://github.com/srt/asterisk-java.git
+	git clone https://github.com/milesje/asterisk-java.git
 	cd asterisk-java
 	mvn install
 
